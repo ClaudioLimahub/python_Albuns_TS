@@ -21,7 +21,7 @@ conn_str = (
 
 # Função para escrever log
 def write_log(message):
-    log_file_path = 'C:/Users/gblsj/OneDrive/Documentos/Python/RPA/ts_web_db_albums/log.txt'
+    log_file_path = '(Seu diretório)'
     with open(log_file_path, 'a', encoding='utf-8') as log_file:
         log_file.write(message + '\n')
     print(message)  # Imprime a mensagem no console
